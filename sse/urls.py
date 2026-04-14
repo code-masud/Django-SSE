@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import index
+from .views import async_home
 app_name = 'sse'
 
 urlpatterns = [
-    path('sse', index, name="index")
+    path('sse', async_home, name="index")
 ]
